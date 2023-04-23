@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+/* 
+    You can add global styles to this file, and also import other style files
+    All styles written here will be applied to all the html files
+*/
+
+body {
+    /* For some annoying reason the margin is set to 8px by default */
+    margin: 0;
+}
+.toolbar{
+    /*
+        Flex-boxes are my favorite thing in the whole world, here is a fantastic guide on them
+        https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    */
+    display: flex;
+    /* flex-flow lets you determine: What direction to arrange elements, and should the wrap at the edges*/
+    flex-flow: row wrap;
+    gap: 10px;
+    background-color: brown;
+    padding: 5px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
